@@ -1,0 +1,18 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+.DS_Store
+
+# Downloaded offline voice model (large; do not commit)
+/data/vosk-model-small-en-us-0.15/
+
+# Local microphone preference (machine-specific)
+/data/audio_input_device.txt
+
+# Local user data and generated project archives
+/data/
+/workspace/
+/amigo_source_only.zip
